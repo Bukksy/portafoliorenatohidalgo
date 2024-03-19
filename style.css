@@ -226,16 +226,4 @@ nav a:hover {
     justify-content: center;
 }
 /*------------------*/
-.box {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.box-container {
-    width: 100px;
-    height: 100px;
-    text-align: center;
 
-    background-color: white;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
