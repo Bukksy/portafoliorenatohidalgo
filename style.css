@@ -17,22 +17,22 @@
 
 @font-face {
     font-family: Copyduck;
-    src: url(/FONT/Copyduck.ttf);
+    src: url(/portafolio-renatohidalgo-main/FONT/Copyduck.ttf);
 }
 
 @font-face {
     font-family: Matisan;
-    src: url(/FONT/MatisanScript_PERSONAL_USE_ONLY.otf);
+    src: url(/portafolio-renatohidalgo-main/FONT/MatisanScript_PERSONAL_USE_ONLY.otf);
 }
 
 @font-face {
     font-family: Lostar;
-    src: url(/FONT/Lostar.ttf);
+    src: url(/portafolio-renatohidalgo-main/FONT/Lostar.ttf);
 }
 
 @font-face {
     font-family: brush;
-    src: url(/FONT/blowbrush.ttf);
+    src: url(/portafolio-renatohidalgo-main/FONT/blowbrush.ttf);
 }
 
 
@@ -42,7 +42,7 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
-    background: url(/IMAGENES/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
+    background: url(/portafolio-renatohidalgo-main/IMAGENES/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
 
 }
 
