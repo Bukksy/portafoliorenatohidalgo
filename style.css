@@ -1,21 +1,49 @@
+@media all and (max-width:700px){
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px;
+        font-size: small;
+    }
+    #headerr {
+        padding-bottom: 30px;
+    }
+
+    .HEADD {
+        height: 40px;
+    }
+}
+
 @font-face {
     font-family: Copyduck;
-    src: url(FONT/Copyduck.ttf);
+    src: url(/FONT/Copyduck.ttf);
 }
 
 @font-face {
     font-family: Matisan;
-    src: url(FONT/MatisanScript_PERSONAL_USE_ONLY.otf);
+    src: url(/FONT/MatisanScript_PERSONAL_USE_ONLY.otf);
 }
+
+@font-face {
+    font-family: Lostar;
+    src: url(/FONT/Lostar.ttf);
+}
+
+@font-face {
+    font-family: brush;
+    src: url(/FONT/blowbrush.ttf);
+}
+
 
 body {
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
-	color: #666;
-	background-image: url(IMAGENES/dark-background-abstract-background-network-3d-background-7680x4320-8324.png); 
 	font-size: 1em;
 	line-height: 1.5em;
+    background: url(/IMAGENES/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
+
 }
 
 h1 {
@@ -106,16 +134,6 @@ nav a:hover {
     color: rgb(133, 133, 133);
 }
 
-@media (max-width:700px){
-    header {
-        flex-direction: column;
-    }
-    nav {
-        padding: 10px;
-        font-size: small;
-    }
-}
-
 .logo {
     display: flex;
 }
@@ -125,9 +143,14 @@ nav a:hover {
     width: 50px;
 }
 
-h1:hover {
+.nombreportafolio:hover {
     color: rgb(255, 255, 255);
     text-shadow: 3px 2px 2px rgb(206, 0, 0);
+    transition: 0.5s;
+}
+
+.home {
+    color: gray;
 }
 
 #whatsapp:hover {
@@ -153,4 +176,66 @@ h1:hover {
 #github:hover {
     border-radius: 80px;
     box-shadow: 0px 0px 6px #ffffff;
+}
+
+.inicio {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    letter-spacing: 8px;
+    
+}
+
+.inicio:hover {
+    text-shadow: 1px 1px 6px rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+
+.aboutt {
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.aboutt:hover {
+    box-shadow: 0px 0px 13px rgb(255, 255, 255) ;
+}
+
+.aboutt:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#headerr {
+    padding-top: 20px;
+}
+
+
+/*-------INICIO----------*/
+.HEADD {
+    padding: 30PX;
+}
+
+.titlee {
+    display: flex;
+    justify-content: center;
+}
+/*------------------*/
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box-container {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
